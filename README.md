@@ -27,6 +27,12 @@ Performans Ölçütleri:
 Kurulum ve Çalıştırma:
 Bu simülasyon bir Python web uygulama çatısı olan Streamlit kullanılarak geliştirilmiştir.
 
+
+Kurulum ve Çalıştırma:
+Python 3.x
+Gerekli Kütüphaneler: streamlit, pandas, copy, collections, concurrent.futures
+Bu simülasyon bir Python web uygulama çatısı olan Streamlit kullanılarak geliştirilmiştir.
+
 1.Ön Gereksinimler:
 Projenin çalışması için bilgisayarınızda Python kurulu olmalıdır.
 2.Bağımlılıkların Kurulumu:
