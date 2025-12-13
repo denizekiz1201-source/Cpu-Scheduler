@@ -96,7 +96,8 @@ streamlit run cpu_scheduler.py
 
 ### 3️.Tarayıcıdan Görüntüleyin
 ```text
-http://localhost:8501
+http://localhost:8502
+http://192.168.1.14:8502
 ```
 ##  Genel Sonuç
 Simülasyon sonuçları, **SJF tabanlı algoritmaların** ortalama bekleme ve tamamlanma süreleri açısından en verimli yöntemler olduğunu net bir şekilde göstermiştir.
