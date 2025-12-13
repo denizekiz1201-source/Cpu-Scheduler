@@ -5,7 +5,7 @@
 * **Ders:** İşletim Sistemleri
 * **Proje Türü:** Python + Streamlit tabanlı simülasyon arayüzü
 * **GitHub:** [https://github.com/denizekiz1201-source/Cpu-Scheduler.git](https://github.com/denizekiz1201-source/Cpu-Scheduler.git)
-**Dosya:** `cpu_scheduler.py`  
+* **Dosya:** `cpu_scheduler.py`  
 
 Bu proje, işletim sistemlerinde kullanılan **CPU zamanlama algoritmalarını** karşılaştırmalı olarak simüle etmek amacıyla geliştirilmiştir.  
 Uygulama, **Streamlit** tabanlı bir web arayüzü üzerinden çalışır ve tüm algoritmaları **eş zamanlı (multithreading)** olarak simüle eder.
