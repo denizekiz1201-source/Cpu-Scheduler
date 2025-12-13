@@ -1,4 +1,4 @@
-# CPU Zamanlama Algoritmaları Simülasyonu
+# CPU Zamanlama Algoritmaları Simülasyonu Kullanıcı Kılavuzu
 
 **Yazar:** Deniz Ekiz  
 **Öğrenci No:** 20232013036  
