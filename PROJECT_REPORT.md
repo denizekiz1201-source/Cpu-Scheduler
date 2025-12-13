@@ -11,14 +11,13 @@
 ##  Proje Amacı
 Bu proje, modern işletim sistemlerinin temel bileşenlerinden olan CPU zamanlama algoritmalarının performansını iki farklı yoğun iş yükü (veri durumu) altında karşılaştırmalı olarak incelemektedir. Simülasyon, Python ve Streamlit web çatısı kullanılarak interaktif bir arayüz ile sunulmuştur. Algoritmalar, gerçek dünya senaryolarını daha iyi taklit etmek amacıyla eş zamanlı (multithreading) çalıştırılmış ve **bağlam değiştirme yükü (context switch overhead)** dikkate alınmıştır.
 
-
-Kullanılan CPU Zamanlama Algoritmaları:
-1-FCFS (First-Come, First-Served)
-2-Non-Preemptive SJF (Shortest Job First - Öncelemeyen)
-3-SRTF (Shortest Remaining Time First - Öncelikli SJF)
-4-Non-Preemptive Priority (Öncelemeyen Öncelik)
-5-Preemptive Priority (Öncelikli Öncelik)
-6-Round Robin (Q=10) (Zaman Dilimli, Kuantum = 10ms)
+##  Kullanılan CPU Zamanlama Algoritmaları
+1.  **FCFS** (First-Come, First-Served)
+2.  **Non-Preemptive SJF** (Shortest Job First - Öncelemeyen)
+3.  **SRTF** (Shortest Remaining Time First - Öncelikli SJF)
+4.  **Non-Preemptive Priority** (Öncelemeyen Öncelik)
+5.  **Preemptive Priority** (Öncelikli Öncelik)
+6.  **Round Robin (Q=10)** (Zaman Dilimli, Kuantum = 10ms)
 
 Performans Ölçütleri:
 -Ortalama Bekleme Süresi (Average Waiting Time)
@@ -95,33 +94,6 @@ Kaynakça
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-# 📑 CPU-Scheduler: Karşılaştırmalı Performans Raporu (Detaylı)
-
-## Geliştirici ve Proje Bilgileri
-
-* **Geliştiren:** DENİZ EKİZ
-* **Öğrenci No:** 20232013036
-* **Ders:** İşletim Sistemleri
-* **Proje Türü:** Python + Streamlit tabanlı simülasyon arayüzü
-* **GitHub:** [https://github.com/denizekiz1201-source/Cpu-Scheduler.git](https://github.com/denizekiz1201-source/Cpu-Scheduler.git)
-
----
-
-## 🎯 Proje Amacı
-
-Bu proje, modern işletim sistemlerinin temel bileşenlerinden olan CPU zamanlama algoritmalarının performansını iki farklı yoğun iş yükü (veri durumu) altında karşılaştırmalı olarak incelemektedir. Simülasyon, Python ve Streamlit web çatısı kullanılarak interaktif bir arayüz ile sunulmuştur. Algoritmalar, gerçek dünya senaryolarını daha iyi taklit etmek amacıyla eş zamanlı (multithreading) çalıştırılmış ve **bağlam değiştirme yükü (context switch overhead)** dikkate alınmıştır.
 
 ## ⚙️ Kullanılan CPU Zamanlama Algoritmaları
 
