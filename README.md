@@ -117,11 +117,14 @@ streamlit run cpu_scheduler.py
 
 ---
 
-### 3️.Tarayıcıdan Görüntüleyin
-
+### 3. Tarayıcıdan Görüntüleyin
 ```text
-http://localhost:8501
+http://localhost:8502
 ```
+```text
+http://192.168.1.14:8502
+```
+---
 
 ##  Eş Zamanlı Çalışma Yapısı
 - Tüm CPU zamanlama algoritmaları **ThreadPoolExecutor** kullanılarak paralel (eş zamanlı) şekilde çalıştırılır.
