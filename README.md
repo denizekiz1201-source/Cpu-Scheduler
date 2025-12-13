@@ -9,7 +9,7 @@ Uygulama, **Streamlit** tabanlı bir web arayüzü üzerinden çalışır ve tü
 
 ---
 
-## 📌 Amaç
+##  Amaç
 
 - CPU zamanlama algoritmalarının performanslarını karşılaştırmak  
 - Bekleme süresi, tamamlanma süresi, verimlilik ve throughput gibi metrikleri analiz etmek  
@@ -17,7 +17,7 @@ Uygulama, **Streamlit** tabanlı bir web arayüzü üzerinden çalışır ve tü
 
 ---
 
-## ⚙️ Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 
 - **Python 3**
 - **Streamlit**
@@ -26,7 +26,7 @@ Uygulama, **Streamlit** tabanlı bir web arayüzü üzerinden çalışır ve tü
 
 ---
 
-## 🧠 Simüle Edilen Zamanlama Algoritmaları
+##  Simüle Edilen Zamanlama Algoritmaları
 
 Toplam **6 farklı CPU zamanlama algoritması** uygulanmıştır:
 
@@ -39,7 +39,7 @@ Toplam **6 farklı CPU zamanlama algoritması** uygulanmıştır:
 
 ---
 
-## 📊 Kullanılan Veri Setleri
+##  Kullanılan Veri Setleri
 
 ### Case 1
 - **200 süreç**
@@ -56,7 +56,7 @@ Veri setleri **kod içine gömülü (embedded)** olarak tanımlanmıştır.
 
 ---
 
-## ⏱️ Simülasyon Varsayımları
+##  Simülasyon Varsayımları
 
 | Parametre | Değer |
 |---------|------|
@@ -66,7 +66,7 @@ Veri setleri **kod içine gömülü (embedded)** olarak tanımlanmıştır.
 
 ---
 
-## 📈 Hesaplanan Performans Metrikleri
+##  Hesaplanan Performans Metrikleri
 
 Her algoritma için aşağıdaki metrikler hesaplanır:
 
@@ -82,7 +82,7 @@ Her algoritma için aşağıdaki metrikler hesaplanır:
 
 ---
 
-## 🖥️ Uygulama Arayüzü
+##  Uygulama Arayüzü
 
 Streamlit arayüzü şu özellikleri sunar:
 
@@ -96,8 +96,15 @@ Streamlit arayüzü şu özellikleri sunar:
 
 ---
 
-## 🚀 Çalıştırma Talimatları
+##  Çalıştırma Talimatları
 
 ### 1. Gerekli Kütüphaneleri Kurun
 ```bash
 pip install streamlit pandas
+
+----
+
+##  Uygulamayı Başlatın
+streamlit run cpu_scheduler.py
+
+
