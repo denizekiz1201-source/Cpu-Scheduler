@@ -119,11 +119,11 @@ streamlit run cpu_scheduler.py
 ```text
 http://localhost:8501
 ```
-
-Eş Zamanlı Çalışma Yapısı
+---
+##Eş Zamanlı Çalışma Yapısı
 -Algoritmalar ThreadPoolExecutor kullanılarak paralel çalıştırılır.
 -Streamlit ortamına uygun ve kararlı bir yapı tercih edilmiştir.
 -Her algoritma için süreç listesi deepcopy ile izole edilmiştir.
 
-
+---
 
