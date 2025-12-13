@@ -8,8 +8,8 @@
 * **Proje Türü:** Python + Streamlit tabanlı simülasyon arayüzü
 * **GitHub:** [https://github.com/denizekiz1201-source/Cpu-Scheduler.git](https://github.com/denizekiz1201-source/Cpu-Scheduler.git)
 
-Proje Amacı
-Bu proje, modern işletim sistemlerinin temel bileşenlerinden olan CPU zamanlama algoritmalarının performansını iki farklı yoğun iş yükü (veri durumu) altında karşılaştırmalı olarak incelemektedir. Simülasyon, Python ve Streamlit web çatısı kullanılarak interaktif bir arayüz ile sunulur. Algoritmalar, gerçek dünya senaryolarını daha iyi taklit etmek amacıyla eş zamanlı (multithreading) çalıştırılmış ve bağlam değiştirme yükü (context switch overhead) dikkate alınmıştır.
+##  Proje Amacı
+Bu proje, modern işletim sistemlerinin temel bileşenlerinden olan CPU zamanlama algoritmalarının performansını iki farklı yoğun iş yükü (veri durumu) altında karşılaştırmalı olarak incelemektedir. Simülasyon, Python ve Streamlit web çatısı kullanılarak interaktif bir arayüz ile sunulmuştur. Algoritmalar, gerçek dünya senaryolarını daha iyi taklit etmek amacıyla eş zamanlı (multithreading) çalıştırılmış ve **bağlam değiştirme yükü (context switch overhead)** dikkate alınmıştır.
 
 
 Kullanılan CPU Zamanlama Algoritmaları:
