@@ -1,7 +1,10 @@
 # CPU Zamanlama Algoritmaları Simülasyonu Kullanıcı Kılavuzu
 
-**Yazar:** Deniz Ekiz  
-**Öğrenci No:** 20232013036  
+* **Geliştiren:** DENİZ EKİZ
+* **Öğrenci No:** 20232013036
+* **Ders:** İşletim Sistemleri
+* **Proje Türü:** Python + Streamlit tabanlı simülasyon arayüzü
+* **GitHub:** [https://github.com/denizekiz1201-source/Cpu-Scheduler.git](https://github.com/denizekiz1201-source/Cpu-Scheduler.git)
 **Dosya:** `cpu_scheduler.py`  
 
 Bu proje, işletim sistemlerinde kullanılan **CPU zamanlama algoritmalarını** karşılaştırmalı olarak simüle etmek amacıyla geliştirilmiştir.  
