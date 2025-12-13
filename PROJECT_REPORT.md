@@ -19,20 +19,22 @@ Bu proje, modern işletim sistemlerinin temel bileşenlerinden olan CPU zamanlam
 5.  **Preemptive Priority** (Öncelikli Öncelik)
 6.  **Round Robin (Q=10)** (Zaman Dilimli, Kuantum = 10ms)
 
-Performans Ölçütleri:
--Ortalama Bekleme Süresi (Average Waiting Time)
--Ortalama Tamamlanma Süresi (Average Turnaround Time)
--Maksimum Bekleme / Tamamlanma Süresi (Max Waiting / Turnaround Time)
--CPU Verimliliği (Efficiency)
--Bağlam Değişimi Sayısı (Context Switch Count)
--Belirli Zaman Aralıklarında Üretim Hızı (Throughput  T = 50, 100, 150, 200)
+## Performans Ölçütleri
+Simülasyonda kullanılan temel performans metrikleri şunlardır:
+* Ortalama Bekleme Süresi (Average Waiting Time)
+* Ortalama Tamamlanma Süresi (Average Turnaround Time)
+* Maksimum Bekleme / Tamamlanma Süresi (Max Waiting / Turnaround Time)
+* CPU Verimliliği (Efficiency)
+* Bağlam Değişimi Sayısı (Context Switch Count)
+* Belirli Zaman Aralıklarında Üretim Hızı (**Throughput** T = 50, 100, 150, 200)
 
-Senaryolar ve Zaman Çizelgeleri
-Simülasyon iki farklı veri setiyle gerçekleştirilmiştir:
-Case 1: 200 süreç
-Case 2: 100 süreç
-Her süreç için geliş zamanı, CPU burst süresi ve öncelik tanımlanmıştır.
-Her algoritma için ayrı ayrı zaman çizelgeleri (Gantt benzeri) Streamlit tabanlı web arayüzünde üretilmiştir. Bu çizelgelerde CPU’nun hangi zaman aralığında hangi süreci çalıştırdığı net biçimde gösterilmektedir. IDLE süreleri ve bağlam değişimleri hesaplamalarda dikkate alınmıştır.
+## Senaryolar ve Zaman Çizelgeleri
+Simülasyon, süreçlerin geliş zamanı, CPU burst süresi ve önceliği tanımlanmış iki farklı veri setiyle gerçekleştirilmiştir:
+* **Case 1:** 200 süreç
+* **Case 2:** 100 süreç
+Her algoritma için ayrı ayrı zaman çizelgeleri (Gantt benzeri) Streamlit arayüzünde üretilmiştir. Bu çizelgelerde CPU’nun hangi zaman aralığında hangi süreci çalıştırdığı net biçimde gösterilmiş; **IDLE süreleri** ve **bağlam değişimleri** hesaplamalarda dikkate alınmıştır.
+
+---
 
 
 Case 1 (200 Süreç) Sonuçları
