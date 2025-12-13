@@ -93,12 +93,14 @@ pip install streamlit pandas
 streamlit run cpu_scheduler.py
 ```
 ---
-
-### 3️.Tarayıcıdan Görüntüleyin
+### 🌐 3. Tarayıcıdan Görüntüleyin
 ```text
 http://localhost:8502
+```
+```text
 http://192.168.1.14:8502
 ```
+---
 ##  Genel Sonuç
 Simülasyon sonuçları, **SJF tabanlı algoritmaların** ortalama bekleme ve tamamlanma süreleri açısından en verimli yöntemler olduğunu net bir şekilde göstermiştir.
 
