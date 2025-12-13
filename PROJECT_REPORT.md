@@ -1,10 +1,12 @@
-# CPU-Scheduler
-CPU Zamanlama Algoritmaları Simülasyonu: Karşılaştırmalı Performans Raporu
-Geliştiren: DENİZ EKİZ
-Öğrenci No: 20232013036
-Ders: İşletim Sistemleri
-Proje Türü: Python + Streamlit tabanlı simülasyon arayüzü
-GitHub: https://github.com/denizekiz1201-source/Cpu-Scheduler.git
+# 📑 CPU-Scheduler: Karşılaştırmalı Performans Raporu (Detaylı)
+
+## Geliştirici ve Proje Bilgileri
+
+* **Geliştiren:** DENİZ EKİZ
+* **Öğrenci No:** 20232013036
+* **Ders:** İşletim Sistemleri
+* **Proje Türü:** Python + Streamlit tabanlı simülasyon arayüzü
+* **GitHub:** [https://github.com/denizekiz1201-source/Cpu-Scheduler.git](https://github.com/denizekiz1201-source/Cpu-Scheduler.git)
 
 Proje Amacı
 Bu proje, modern işletim sistemlerinin temel bileşenlerinden olan CPU zamanlama algoritmalarının performansını iki farklı yoğun iş yükü (veri durumu) altında karşılaştırmalı olarak incelemektedir. Simülasyon, Python ve Streamlit web çatısı kullanılarak interaktif bir arayüz ile sunulur. Algoritmalar, gerçek dünya senaryolarını daha iyi taklit etmek amacıyla eş zamanlı (multithreading) çalıştırılmış ve bağlam değiştirme yükü (context switch overhead) dikkate alınmıştır.
