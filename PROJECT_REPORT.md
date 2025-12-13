@@ -83,5 +83,10 @@ Sonuç:
 Simülasyon sonuçları, SJF tabanlı algoritmaların ortalama bekleme ve tamamlanma süreleri açısından en verimli yöntemler olduğunu göstermiştir. FCFS basit yapısına rağmen uzun işlerin sistem performansını olumsuz etkileyebildiği gözlemlenmiştir. Round Robin algoritması adil ve etkileşimli sistemler için uygun olsa da bağlam değiştirme maliyeti nedeniyle toplam performansı düşürmektedir. Tüm algoritmalarda CPU verimliliğinin %99’un üzerinde olması, sistemin yoğun iş yükü altında etkin çalıştığını göstermektedir.
 
 
-
+Kaynakça
+1)Silberschatz, A., Galvin, P. B., Gagne, G., Operating System Concepts
+2)Tanenbaum, A. S., Modern Operating Systems
+3)Stallings, W., Operating Systems: Internals and Design Principles
+4)GeeksforGeeks – CPU Scheduling
+5)Wikipedia – CPU Scheduling Algorithms
 
