@@ -119,11 +119,18 @@ streamlit run cpu_scheduler.py
 ```text
 http://localhost:8501
 ```
----
-## Eş Zamanlı Çalışma Yapısı
-**Algoritmalar ThreadPoolExecutor kullanılarak paralel çalıştırılır.
-**Streamlit ortamına uygun ve kararlı bir yapı tercih edilmiştir.
-**Her algoritma için süreç listesi deepcopy ile izole edilmiştir.
+## 🔄 Eş Zamanlı Çalışma Yapısı
+
+- Tüm CPU zamanlama algoritmaları **ThreadPoolExecutor** kullanılarak paralel (eş zamanlı) şekilde çalıştırılır.
+- Bu yaklaşım, Streamlit ortamı için **kararlı ve güvenli** bir çalışma yapısı sağlar.
+- Her algoritma için süreç listesi `deepcopy` kullanılarak **tamamen izole edilir**.
+- Böylece algoritmalar birbirlerinin sonuçlarını etkilemeden bağımsız olarak simüle edilir.
 
 ---
+
+## 📌 Notlar
+
+- **IDLE** (boşta kalma) süreleri zaman çizelgesinde gösterilmez.
+- **Context switch (bağlam değiştirme) süresi**, toplam simülasyon süresi hesabına dahil edilir.
+- Simülasyon sonuçları **akademik analiz ve eğitim amaçlıdır**.
 
