@@ -39,7 +39,7 @@ Her algoritma için ayrı ayrı zaman çizelgeleri (Gantt benzeri) Streamlit ara
 
 ### Performans Tablosu
 
-| Algoritma | Ort. Bekleme | Maks. Bekleme | Ort. Tamamlama | Maks. Tamamlama | T=50 | T=100 | T=150 | T=200 |  CPU Verimliliği (%) | Bağl. Değişimi |
+| Algoritma | Ort. Bekleme | Maks. Bekleme | Ort. Tamamlama | Maks. Tamamlama | T=50 | T=100 | T=150 | T=200 |  CPU Verimliliği (%) | Bağlam Değişimi |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **FCFS** | 813.50 | 1683 | 823.99 | 1703 | 9 | 13 | 16 | 19 | 99.943 | 199 |
 | **SRTF (Önceliği SJF)** | **537.00** | 1863 | **547.50** | 1883 | 11 | **22** | **32** | **42** | 99.942 | 212 |
