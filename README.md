@@ -96,16 +96,30 @@ Streamlit arayüzü şu özellikleri sunar:
 
 ---
 
-## Çalıştırma Talimatları
+##  Çalıştırma Talimatları
 
-### 1. Gerekli Kütüphaneleri Kurun
-``bash
+### 1️.Gerekli Kütüphaneleri Kurun
+
+```bash
 pip install streamlit pandas
+```
 
-----
+---
 
 ### 2. Uygulamayı Başlatın
+
 ```bash
 streamlit run cpu_scheduler.py
+```
+
+---
+
+### 3️.Tarayıcıdan Görüntüleyin
+
+```text
+http://localhost:8501
+```
+
+
 
 
