@@ -1,4 +1,4 @@
-# 📑 CPU-Scheduler: Karşılaştırmalı Performans Raporu 
+# CPU-Scheduler: Karşılaştırmalı Performans Raporu 
 
 ## Geliştirici ve Proje Bilgileri
 
