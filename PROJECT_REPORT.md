@@ -68,12 +68,13 @@ Performans Tablosu
 Yorum:
 Case 2 sonuçları Case 1 ile tutarlıdır. SJF tabanlı algoritmalar en iyi ortalama performansı sunarken, Round Robin algoritması yüksek bağlam değiştirme maliyeti nedeniyle daha düşük throughput ve daha yüksek bekleme süreleri üretmiştir.
 
-Etkileşimli Web Uygulaması :
--Proje, Streamlit kullanılarak etkileşimli bir web uygulaması şeklinde geliştirilmiştir. Kullanıcılar:
--Case 1 / Case 2 seçebilir
--6 algoritmayı eş zamanlı çalıştırabilir
--Karşılaştırma tablolarını inceleyebilir
--Algoritma bazlı zaman çizelgelerini ve süreç metriklerini görüntüleyebilir
+Etkileşimli Web Uygulaması 
+Proje, Streamlit kullanılarak etkileşimli bir web uygulaması şeklinde geliştirilmiştir. 
+Kullanıcılar:
+-Case 1 / Case 2 seçebilir.
+-6 algoritmayı eş zamanlı çalıştırabilir.
+-Karşılaştırma tablolarını inceleyebilir.
+-Algoritma bazlı zaman çizelgelerini ve süreç metriklerini görüntüleyebilir.
 -Uygulama, çoklu iş parçacığı (ThreadPoolExecutor) kullanarak simülasyonları eş zamanlı çalıştırmaktadır.
 
 Çalıştırmak için
