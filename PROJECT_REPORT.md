@@ -93,7 +93,7 @@ pip install streamlit pandas
 streamlit run cpu_scheduler.py
 ```
 ---
-### 🌐 3. Tarayıcıdan Görüntüleyin
+### 3. Tarayıcıdan Görüntüleyin
 ```text
 http://localhost:8502
 ```
